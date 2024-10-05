@@ -9,7 +9,17 @@ body {
 
 header {
     background-color: #1899D5;
-    height: 72px;
+    height: 72%;
+}
+
+#header {
+    height: 110px;
+    background-color: white;
+}
+
+#estatico {
+    position: fixed;
+
 }
 
 #growth {
@@ -42,7 +52,9 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    padding-top: 15px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    background-color: white;
 }
 
 .barra {
@@ -63,7 +75,7 @@ nav {
 }
 
 #principal {
-    margin-top: 13px;
+    margin-top: 0px;
 }
 
 #imgprincipal {
